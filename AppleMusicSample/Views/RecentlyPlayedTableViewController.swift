@@ -186,6 +186,7 @@ extension RecentlyPlayedTableViewController: MediaSearchTableViewCellDelegate {
     }
     
     func mediaSearchTableViewCell(_ mediaSearchTableViewCell: MediaItemTableViewCell, playMediaItem mediaItem: MediaItem) {
-        musicPlayerManager.beginPlayback(itemID: mediaItem.identifier)
+        musicPlayerManager.beginPlayback(itemID: "pl.e17a3b3e91f34f789af7261af8c2b2a9")
+//        mediaItem.identifier
     }
 }
